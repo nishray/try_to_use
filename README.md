@@ -15,5 +15,9 @@ The reusable Treemap function.
 \# *Tree*.show('value')
 > Sets what 'value' to determine the size of each treemap from the data and updates the chart.
 
-\# *Tree*sticky('value)
-> Turn on / off the Sticky function.
+\# *Tree*.color('value')
+> Sets what color category to use in the Treemap.
+
+\# *Tree*.sticky('value)
+> Turn on / off the Sticky function of Treeemap.
+

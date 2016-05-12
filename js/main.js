@@ -44,4 +44,8 @@ $(function(){
 
 	 var chartWrapper2 = d3.select("#my-div2").datum(data).call(val2)
 
+	$("#button").on('click', function() {
+		val.width(200).height(300).show('Salary').sticky(false);
+		chartWrapper.datum(data).call(val);
+	});
 });
